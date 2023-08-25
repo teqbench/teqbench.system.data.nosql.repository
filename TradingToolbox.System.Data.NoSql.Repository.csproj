@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>5.0.0</PackageVersion>
+    <Description>Base interface and implementation for a NoSql document repository. To be inherited by a concrete instance (i.e. for say MongoDB or DocumentDB) to add the appropriate functionality for the document db of choice.</Description>
+    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <RootNamespace>TradingToolbox.System.Data.NoSql.Repository</RootNamespace>
+    <AssemblyName>TradingToolbox.System.Data.NoSql.Repository</AssemblyName>
+</PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+</Project>
