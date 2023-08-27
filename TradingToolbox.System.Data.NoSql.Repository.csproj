@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <ReleaseVersion>5.0.1</ReleaseVersion>
     <PackOnBuild>true</PackOnBuild>
-    <PackageVersion>5.0.0</PackageVersion>
+    <PackageVersion>5.0.1</PackageVersion>
     <Description>Base interface and implementation for a NoSql document repository. To be inherited by a concrete instance (i.e. for say MongoDB or DocumentDB) to add the appropriate functionality for the document db of choice.</Description>
-    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <PackageOutputPath>../../NuGet-Packages</PackageOutputPath>
     <RootNamespace>TradingToolbox.System.Data.NoSql.Repository</RootNamespace>
     <AssemblyName>TradingToolbox.System.Data.NoSql.Repository</AssemblyName>
 </PropertyGroup>
