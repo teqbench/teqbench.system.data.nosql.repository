@@ -29,6 +29,9 @@ dotnet add package TradingToolbox.System.Data.NoSql.Repository
 ```
 
 ## Update Source Code
+"> [!NOTE]
+> For complete usage, see TradingToolbox.System.Data.NoSql.MongoDB.Repository
+
 ```csharp
 /// <summary>
 /// MongoDB respository operations interface.
