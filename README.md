@@ -1,4 +1,4 @@
-# Trading Toolbox - System Data NoSql Repository
+# System Data NoSql Repository
 
 ## Overview
 Base implementation for a NoSql document repository. Override the appropriate methods to create DB if does not exist, create collection if does not exist (might not need to implement as in case of MongoDB...collection will be created upon first reference if does not exist), as well as methods to dispose of managed/unmanaged objects.
@@ -22,6 +22,8 @@ Base implementation for a NoSql document repository. Override the appropriate me
 > [!NOTE]
 > Referenced/restored via the project file
 
+- None
+
 # Usage
 ## Add NuGet Package To Project
 ```
@@ -30,7 +32,7 @@ dotnet add package TradingToolbox.System.Data.NoSql.Repository
 
 ## Update Source Code
 > [!NOTE]
-> For complete usage, see TradingToolbox.System.Data.NoSql.MongoDB.Repository
+> For complete usage, see [TradingToolbox.System.Data.NoSql.MongoDB.Repository](https://github.com/trading-toolbox/tradingtoolbox.system.data.nosql.mongodb.repository)
 
 ```csharp
 /// <summary>
