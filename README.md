@@ -30,7 +30,47 @@ dotnet add package TradingToolbox.System.Data.NoSql.Repository
 
 ## Update Source Code
 ```csharp
-To add
+/// <summary>
+/// MongoDB respository operations interface.
+/// </summary>
+public interface IRepository<TDocument> : IRepository where TDocument : IDocument
+{
+}
+
+/// <summary>
+/// Base implementation for a repository. Override the appropriate methods to create DB if does not exist,
+/// create collection if does not exist (might not need to implement as in case of MongoDB...collection will be created upon
+/// first reference if does not exist), as well as methods to dispose of managed/unmanaged objects.
+/// </summary>
+public abstract class BaseRepository : IRepository
+{
+    /// <summary>
+    /// Initializes this instance.
+    /// </summary>
+    public virtual async void InitializeAsync()
+    {
+        // Cannot have async operations in contructor, so create an async init routine to ecapsulate 
+        // async operations to be performed right have instance is created. 
+        await this.CreateDatabaseIfDoesNotExistAsync();
+        await this.CreateCollectionIfDoesNotExistAsync();
+    }
+
+    /// <summary>
+    /// Creates the database if does not exist asynchronously.
+    /// </summary>
+    protected virtual async Task CreateDatabaseIfDoesNotExistAsync()
+    {
+        await Task.CompletedTask;
+    }
+
+    /// <summary>
+    /// Creates the document collection if does not exist asynchronously.
+    /// </summary>
+    protected virtual async Task CreateCollectionIfDoesNotExistAsync()
+    {
+        await Task.CompletedTask;
+    }
+}
 ```
 
 # DevOps
