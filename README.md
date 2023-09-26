@@ -22,7 +22,7 @@ Base implementation for a NoSql document repository. Override the appropriate me
 > [!NOTE]
 > Referenced/restored via the project file
 
-- none
+- None
 
 # Usage
 ## Add NuGet Package To Project
