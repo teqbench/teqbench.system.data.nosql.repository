@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingToolbox.System.Data.NoSql.Repository", "TradingToolbox.System.Data.NoSql.Repository.csproj", "{1E3E9C06-12A2-4237-A54D-D75FCC0011AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeqBench.System.Data.NoSql.Repository", "TeqBench.System.Data.NoSql.Repository.csproj", "{1E3E9C06-12A2-4237-A54D-D75FCC0011AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +28,6 @@ Global
 		SolutionGuid = {77FC2710-FF5A-42FF-9C3C-AE3C6F4EC95B}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		version = 5.0.1
+		version = 
 	EndGlobalSection
 EndGlobal

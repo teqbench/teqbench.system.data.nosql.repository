@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace TradingToolbox.System.Data.NoSql.Repository
+namespace TeqBench.System.Data.NoSql.Repository
 {
     /// <summary>
     /// Base implementation for a repository. Override the appropriate methods to create DB if does not exist,

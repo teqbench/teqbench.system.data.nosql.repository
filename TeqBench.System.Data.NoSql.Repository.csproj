@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Authors>Trading Toolbox</Authors>
-		<Company>Trading Toolbox</Company>
-		<Product>Trading Toolbox</Product>
-		<Copyright>Copyright 2023 © Trading Toolbox. All rights reserved.</Copyright>
+		<Authors>TeqBench</Authors>
+		<Company>TeqBench</Company>
+		<Product>TeqBench</Product>
+		<Copyright>Copyright 2023 © TeqBench. All rights reserved.</Copyright>
+		<ReleaseVersion></ReleaseVersion>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Major Condition="'$(major)' == ''">0</Major>
@@ -44,13 +45,13 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<Description>Base interface and implementation for a NoSql document repository. To be inherited by a concrete instance (i.e. for say MongoDB or DocumentDB) to add the appropriate functionality for the document db of choice.</Description>
-		<RootNamespace>TradingToolbox.System.Data.NoSql.Repository</RootNamespace>
-		<AssemblyName>TradingToolbox.System.Data.NoSql.Repository</AssemblyName>
+		<RootNamespace>TeqBench.System.Data.NoSql.Repository</RootNamespace>
+		<AssemblyName>TeqBench.System.Data.NoSql.Repository</AssemblyName>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
 		<WarningLevel>4</WarningLevel>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="README.md" />
+	  <None Remove="README.md" />
 	</ItemGroup>
 </Project>

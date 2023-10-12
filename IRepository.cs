@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TradingToolbox.System.Data.NoSql.Repository
+namespace TeqBench.System.Data.NoSql.Repository
 {
     /// <summary>
     /// Interface for base repository implementation.
