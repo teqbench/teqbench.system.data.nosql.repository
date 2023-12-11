@@ -15,8 +15,9 @@ Base implementation for a NoSql document repository. Override the appropriate me
 > In order to access the TeqBench's package registry on GitHub, a personal access token needs to be created with the appropriate scopes and Visual Studio configured to use it. See the [TeqBench Organization's README](https://github.com/teqbench) which outlines how to create a PAT and configure Visual Studio to use it.
 
 ## Tooling
-- .NET 7.0.x
 - Visual Studio
+- .NET 8.0.x
+    - In the Visual Studio, navigate to Preferences > Other > Preview Features to enable using the .NET 8 SDK, i.e. check the checkbox for the option `Use the NET 8 SDK if installed (requires restart)`.
 
 ## Dependencies
 > [!NOTE]
