@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+	Import common project file settings via teqbench.dev submodule.
+	-->
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Tooling.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Packaging.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Versioning.props" />
+	<PropertyGroup>
+		<Description>Base interface and implementation for a NoSql document repository. To be inherited by a concrete instance (i.e. for say MongoDB or DocumentDB) to add the appropriate functionality for the document db of choice.</Description>
+		<RootNamespace>TeqBench.System.Data.NoSql.Repository</RootNamespace>
+		<AssemblyName>TeqBench.System.Data.NoSql.Repository</AssemblyName>
+	</PropertyGroup>
+</Project>
