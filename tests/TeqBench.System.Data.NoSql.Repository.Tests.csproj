@@ -9,9 +9,9 @@
 	  <ReleaseVersion></ReleaseVersion>
 	</PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="3.0.4" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.4.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.4.1" />
   </ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\src\TeqBench.System.Data.NoSql.Repository.csproj" />
